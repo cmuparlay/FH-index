@@ -1,0 +1,148 @@
+{
+  "host": "genoa3",
+  "platform": "Linux-6.8.0-84-generic-x86_64-with-glibc2.39",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "pgm_commit": "c6fcf3d34e55eb0061b01e2f49dfcbdb711f1407",
+  "numa_node": 0,
+  "parlay_num_threads": 192,
+  "epsilon": 64,
+  "B": 128,
+  "F": 4,
+  "datasets": [
+    {
+      "file": "uniformrandom_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 18446743930148477060,
+      "sha256": "8f076b3258177f1133a2c45fb5bf57d1b1d6a13b4bf4cbffdf13b61336182980",
+      "exit_code": 0,
+      "elapsed_seconds": 9.50106406211853
+    },
+    {
+      "file": "books_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 9223372036854784874,
+      "sha256": "c71eb78eebb746f0e525e47d3d7e6b097f680c45cf17f1ead1d1f22a8950f939",
+      "exit_code": 0,
+      "elapsed_seconds": 11.612785339355469
+    },
+    {
+      "file": "covid_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 1446626459003486210,
+      "sha256": "cdc34a55f609691b57e316fd11c46253477df63b1296a7f05314e701d7c342ba",
+      "exit_code": 0,
+      "elapsed_seconds": 10.250144481658936
+    },
+    {
+      "file": "fb_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 18446744073709551615,
+      "sha256": "22d5fd6f608e528c2ab60b77d4592efa5765516b75a75350f564feb85d573415",
+      "exit_code": 0,
+      "elapsed_seconds": 11.253498077392578
+    },
+    {
+      "file": "genome_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 446640429470,
+      "sha256": "2b0b5ae57a5cd00f504eb8226801ab8311cec1a2e3fb0ec3594b5bb38457c739",
+      "exit_code": 0,
+      "elapsed_seconds": 11.912706136703491
+    },
+    {
+      "file": "history_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 9178997263,
+      "sha256": "c2662355dd437e5d6f4a8e581a18cee07c2b2c184634afe05dd8a0e59311cd42",
+      "exit_code": 0,
+      "elapsed_seconds": 9.846023559570312
+    },
+    {
+      "file": "libio_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 527206042,
+      "sha256": "f9f868375134273548644708f42365b4d3e0b952b5ce211f205b822e9440aea0",
+      "exit_code": 0,
+      "elapsed_seconds": 10.402616739273071
+    },
+    {
+      "file": "osm_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 13748550930623082253,
+      "sha256": "1d1f5681cbfcd3774de112533dccc4065b58b74adf09684e9ad47298d1caa9e0",
+      "exit_code": 0,
+      "elapsed_seconds": 17.154576063156128
+    },
+    {
+      "file": "planet_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 9178997250,
+      "sha256": "d6680d134075890173d5a9d5f2af991eb13ed794da153b5a67d90cec98a4628b",
+      "exit_code": 0,
+      "elapsed_seconds": 10.995768070220947
+    },
+    {
+      "file": "stack_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 238071030,
+      "sha256": "1e261e45f0058731afb84a2caa37fec957e49fa5c4c622333696f43a1530bacc",
+      "exit_code": 0,
+      "elapsed_seconds": 9.59370231628418
+    },
+    {
+      "file": "wise_200M_uint64.bin",
+      "bytes": 1600000008,
+      "header_keys": 200000000,
+      "last_key": 17592186032162,
+      "sha256": "6353bad843367ceda822189c223b6ecea76cd606d824f9483d2a45fb7afa7f88",
+      "exit_code": 0,
+      "elapsed_seconds": 9.75330638885498
+    }
+  ],
+  "source_files_sha256": {
+    "include/common_internal/construction/batch_successor.h": "6fc5f2a280d0f2b5b88199039a4d2880616c98a90a304ff4461e0abe0dfbf4d7",
+    "include/common_internal/construction/fraction.h": "f4b705ac48c5463c564cf3c257ca0d3feafc5b256f5e27f5eb832609e5fbfbb8",
+    "include/common_internal/construction/maximal_covering_builder.h": "fd5fad8d02f1ec5e8e4276c656391f87bd419b24239585c68551fa9fa4776811",
+    "include/common_internal/construction/min_max_segmentation.h": "35eefc9d939b0327342a951e3a65c358fbf6780021da3747e9e54e9a52c19658",
+    "include/common_internal/construction/multi_level_segmentor.h": "bd313343ea4e792c5306563b3b9b6d572f745a1703ad2429ccf793be3be19430",
+    "include/common_internal/construction/segment_descriptor.h": "19618ddd033debb5b636dd916d19fb0c9ef062633094c51cee0e6978ec23a4af",
+    "include/common_internal/construction/single_level_segmentor.h": "8901718c6ca485a8a3ff5ff33a71aa0cf8a1af307278a909788c688a4647a159",
+    "include/common_internal/memory/epoch.h": "578615b944d8e4235aeff306d6b57697c6d13527798e01fefb369939b011bd04",
+    "include/common_internal/memory/epoch_reclamation.h": "3ac59851e1028ec601e0eb9ee947a390d065a85a5ca1a9b1c2d86d7d041ee3be",
+    "include/common_internal/memory/memory_pool.h": "8f47641f19ee73a734f31c3294598ac75ab49e2679e939d5b7edd472a889d6c7",
+    "include/common_internal/memory/thread_state.h": "7a6bbf2440c586490664145d9d791b14520d33369fd71afdf51d1583583dbba5",
+    "include/common_internal/representation/finger_array.h": "5e22b3e4980dacb3aaf6f333af36686039438d983515f84f37160c88079980ee",
+    "include/common_internal/representation/finger_group_descriptor.h": "3b226f0145a9f10f1438cdb46a161d6fe9ef6102e56e45f35f63f065cd9b86be",
+    "include/common_internal/utility/common.h": "d92a77d6c52934ce599af725ef552e937a2c974f50fec00781b3e5350203fb05",
+    "include/common_internal/utility/hasher.h": "05f2d13a0c5c37cbd632a8823a6c18abb07a275488d4b9af7c39996c04c39d7d",
+    "include/common_internal/utility/math.h": "cd463c30ea127e20950af4a87aab156820a0575d854ef9150f09be2aba4d23da",
+    "include/fh_index/fh_index_ro.h": "90788bebade552051501f22914d9c1bc4662df6dc8ca10201d385757a136d532",
+    "include/fh_index/fh_index_rw.h": "512f5889d54e9e689ade2ff1b81f2710c94cb25d3ce5c7b4c38bc67f8fd744f1",
+    "include/fh_index_ro/finger/finger.h": "efffabdb1ad2d41467df553b0d076fa95e5f2ea55ca9fe7b95d9414d843b4c9f",
+    "include/fh_index_ro/layer/fh_layer_ro.h": "5e736a8b1b920690437d2d9e6e315ed43b3466efc585e3d0292c5e88bc393b1c",
+    "include/fh_index_ro/layer/top_layer_ro.h": "bc849039f176660570d93cfd53193ea4a3f5e636400e13926ad1d2f9b3add7fd",
+    "include/fh_index_ro/storage/kv_layer_ro.h": "5de5399920264bdbc96f66fda9de6d11e758b0a82f48830c1f98eda3f5620bd6",
+    "include/fh_index_rw/finger/finger_rw.h": "748bc2959d206c399ffd3b6cc73b3f32d8cc1d3000ebc9fd9be8f7c9d525d123",
+    "include/fh_index_rw/retrain_stats.h": "7aab46ebbfb184cd18257dcfca2e9ceab8b3170784be3a10b67d7b39709bae7a",
+    "include/fh_index_rw/storage/block_pool.h": "5c6231e753606a5c5026b3a016cc51641ca9c6760802a1210e9d6b1c91087d38",
+    "include/fh_index_rw/storage/kv_layer_rw.h": "fe98b944015d135bd362cd34198b1a1cbd09fba66fcabe718a3ecafbcae3f081",
+    "include/fh_index_rw/storage/lower_bound.h": "685d358f9cd853fbb85e8dab4e3241ca9bd2bc856ef2105d6a133304c1527b23",
+    "include/util/concurrent_timer.h": "d2c7d6c13f4791c11744ab850f60bf0787707726791f230512d1dbc5f0604424",
+    "include/util/dataset_generator.h": "dcf315137564c20167926e3458f56841cebb2abb76dd219386b1547de76cab59",
+    "include/util/io_utility.h": "2fee3ce41ef5971c6bfe817daccf08808e7a98c3ef7ec04c26b8d4b56f980b83",
+    "include/util/zipfian.h": "8ebd75597d7c518601debd78de5692d18075b2aab6ad98ab6a31c27483e6fc50",
+    "experiments/partition_count/bench_partition_count.cpp": "5543c25a931b25bc2d7da99952adebb3133ebef53f27592f51c97a4e0e3831ee"
+  },
+  "parlay_commit": "e1f1dc0ccf930492a2723f7fbef8510d35bf57f5",
+  "input_hashes_match_manifest": true
+}

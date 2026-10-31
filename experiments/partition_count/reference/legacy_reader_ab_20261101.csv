@@ -1,0 +1,3 @@
+dataset,n,epsilon,B,F,pgm_partitions,fh_partitions
+covid_200M_uint64.bin,200000000,64,128,4,42696,1
+wise_200M_uint64.bin,200000000,64,128,4,27554,1

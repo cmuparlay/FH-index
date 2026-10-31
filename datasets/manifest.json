@@ -1,0 +1,144 @@
+{
+  "format": "little-endian uint64 count followed by count uint64 keys",
+  "source": "https://www.kaggle.com/datasets/hobopia/fh-index-datasets",
+  "canonical_binary_sha256_status": "Recorded in the post-revision supplementary artifact; not recomputed by this source checkout.",
+  "files": [
+    {
+      "name": "uniformrandom_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "8f076b3258177f1133a2c45fb5bf57d1b1d6a13b4bf4cbffdf13b61336182980",
+      "source": "kaggle",
+      "role": "synthetic uniform"
+    },
+    {
+      "name": "books_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "c71eb78eebb746f0e525e47d3d7e6b097f680c45cf17f1ead1d1f22a8950f939",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "covid_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "cdc34a55f609691b57e316fd11c46253477df63b1296a7f05314e701d7c342ba",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "fb_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "22d5fd6f608e528c2ab60b77d4592efa5765516b75a75350f564feb85d573415",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "genome_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "2b0b5ae57a5cd00f504eb8226801ab8311cec1a2e3fb0ec3594b5bb38457c739",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "history_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "c2662355dd437e5d6f4a8e581a18cee07c2b2c184634afe05dd8a0e59311cd42",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "libio_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "f9f868375134273548644708f42365b4d3e0b952b5ce211f205b822e9440aea0",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "osm_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "1d1f5681cbfcd3774de112533dccc4065b58b74adf09684e9ad47298d1caa9e0",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "planet_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "d6680d134075890173d5a9d5f2af991eb13ed794da153b5a67d90cec98a4628b",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "stack_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "1e261e45f0058731afb84a2caa37fec957e49fa5c4c622333696f43a1530bacc",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "wise_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "6353bad843367ceda822189c223b6ecea76cd606d824f9483d2a45fb7afa7f88",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "uniformrandom_800M_uint64.bin",
+      "keys": 800000000,
+      "bytes": 6400000008,
+      "sha256": "65c7536d5cadaa4f4ee1f080d0e8d20667bd431d6a7c11194458fe290b1770c2",
+      "source": "kaggle",
+      "role": "synthetic uniform"
+    },
+    {
+      "name": "covid_800M_uint64.bin",
+      "keys": 800000000,
+      "bytes": 6400000008,
+      "sha256": "54cc4d765c279cf9838b44e1139b7cfb1069e47f95ecab173e8f4d571aa6d81e",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "osm_800M_uint64.bin",
+      "keys": 800000000,
+      "bytes": 6400000008,
+      "sha256": "94baa4ab53bcf0da5004fcbae830dc2e4bc7bfe1e5127de02a98edb0019429ee",
+      "source": "kaggle",
+      "role": "real-world"
+    },
+    {
+      "name": "lognormal_s2_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "69057ca364392b4d17e609481ca1746e2d123ed8dac4b311c55cf59d2674326e",
+      "source": "kaggle",
+      "role": "additional synthetic"
+    },
+    {
+      "name": "mixture4_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "f7ce4a96640a8acb8ed9085fdb8ff090da038c04abe138e0f64010300d1be636",
+      "source": "kaggle",
+      "role": "additional synthetic"
+    },
+    {
+      "name": "sawtooth_256_200M_uint64.bin",
+      "keys": 200000000,
+      "bytes": 1600000008,
+      "sha256": "d5f5bd8c628c2ba97d19e9f90824899e3c759f65164c1a4c29189f1c8d2981fb",
+      "source": "kaggle",
+      "role": "additional synthetic"
+    }
+  ],
+  "kaggle_version": 10
+}

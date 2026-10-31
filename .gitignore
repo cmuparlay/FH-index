@@ -1,0 +1,58 @@
+.cache
+results/
+plot/
+
+# macOS metadata
+.DS_Store
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+
+# Executables
+*.out
+
+# Build directories
+build/
+build_asan/
+build-*/
+**/build/
+bin/
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded paper inputs stay outside the source snapshot.
+/datasets/*.bin
+/datasets/*.zip
+
+# IDE and editor files
+.vscode/
+.idea
+*.sln
+*.xcodeproj
+
+# Claude Code
+.claude/
+.mcp.json
+
+# Shell config files (created by dev environment)
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig
+.ripgreprc
+
+# Dependency directories
+lib/
+vendor/
+
+# Generated files
+Makefile
+CMakeLists.txt.user

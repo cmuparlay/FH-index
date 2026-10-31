@@ -1,0 +1,6 @@
+[submodule "third_party/parlaylib"]
+	path = third_party/parlaylib
+	url = https://github.com/cmuparlay/parlaylib.git
+[submodule "third_party/PGM-index"]
+	path = third_party/PGM-index
+	url = https://github.com/gvinciguerra/PGM-index.git

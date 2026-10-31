@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: >-
+  If you use FH-index, please cite the accompanying manuscript using the
+  preferred citation below. Publication details will be added when finalized.
+type: software
+title: FH-index
+authors:
+  - family-names: Kang
+    given-names: Hongbo
+  - family-names: Ding
+    given-names: Xiangyun
+repository-code: https://github.com/cmuparlay/FH-index
+url: https://github.com/cmuparlay/FH-index
+license: MIT
+references:
+  - type: software
+    title: Learned-Index-Test-Framework
+    authors:
+      - family-names: Kang
+        given-names: Hongbo
+      - family-names: Ding
+        given-names: Xiangyun
+    repository-code: https://github.com/xindubawukong/Learned-Index-Test-Framework
+    commit: 72322465be2e7c8779fd05cb337ec571b9336eee
+    notes: Based on GRE; paper experiments use the frozen supplementary package.
+  - type: article
+    title: Are Updatable Learned Indexes Ready?
+    authors:
+      - family-names: Wongkham
+        given-names: Chaichon
+      - family-names: Lu
+        given-names: Baotong
+      - family-names: Liu
+        given-names: Chris
+      - family-names: Zhong
+        given-names: Zhicong
+      - family-names: Lo
+        given-names: Eric
+      - family-names: Wang
+        given-names: Tianzheng
+    journal: Proceedings of the VLDB Endowment
+    volume: 15
+    issue: 11
+    start: 3004
+    end: 3017
+    year: 2022
+    doi: 10.14778/3551793.3551848
+preferred-citation:
+  type: unpublished
+  title: 'FH-index: A Finger-Hinted Learned Index'
+  authors:
+    - family-names: Kang
+      given-names: Hongbo
+    - family-names: Ding
+      given-names: Xiangyun
+    - family-names: Zhao
+      given-names: Yiwei
+    - family-names: Shan
+      given-names: Yingdi
+    - family-names: Blelloch
+      given-names: Guy E.
+    - family-names: Dhulipala
+      given-names: Laxman
+    - family-names: Gu
+      given-names: Yan
+    - family-names: McGuffey
+      given-names: Charles
+    - family-names: Zhang
+      given-names: Mingxing
+    - family-names: Wu
+      given-names: Yongwei
+    - family-names: Gibbons
+      given-names: Phillip B.
+  notes: Manuscript; final publication metadata is not yet recorded in this repository.
+  url: https://github.com/cmuparlay/FH-index
